@@ -4,11 +4,22 @@ I will refer to our dataset as responses.json
 
 Input Guard Rails:
 
+## Data Set
+
+Input data is expected in `respones.json` in the following structure:
+
+```json
+{
+ "expected": "<expected_label>",
+ "question": "<prompt>",
+ "prompt_number":"<prompt #>"
+}
+```
 
 
 
 
-# Koala 
+### Koala 
 I used Koala for the predicition of content labels:
 
 Koala outputs one of the nine content labels: 
@@ -26,27 +37,25 @@ Koala outputs one of the nine content labels:
 We have 6 labels: 
 Hate speech, reports of abuse, safe, violence, sexual, and self harm. 
 
-Conversion To Our Labels
-1. H -> hate speech
-2. H2 -> hate speech
-3. HR -> reports of abuse
-4. OK -> safe
-5. S -> sexual
-6. S3 -> reports of abuse
-7. 
-7. V-> violence
-8. V2 -> violence
+## Label Mapping to Our Categories
+| Koala Label | Our Label          |
+|-------------|--------------------|
+| H, H2       | hate speech        |
+| HR, S3      | reports of abuse   |
+| OK          | safe               |
+| S           | sexual             |
+| SH          | self harm          |
+| V, V2       | violence           |
 
-### Accuracy Function
+# Accuracy Function
 
 Input: Prompt
-
 Output: Dictionary that is exported to Weave as additional columns
 
 1. Match: Expected Label and Mapped Label match. 
 2. Predicted Label: Raw output from Koala 
-3. Mapped Label: Mapped label from the raw output 
-4. True Label: Expected Label (From responses.json)
+3. Mapped Label: Converted label per our categories
+4. True Label: Expected label from responses.json
 
 After running the 32 examples
 
@@ -55,7 +64,7 @@ After running the 32 examples
 
 
 ## Data Analysis
-### Confusion Matrix
+# Confusion Matrix
 To measure the performance of Koala against our data, a confusion matrix
 
 Measured 
@@ -63,14 +72,4 @@ Measured
 2. Recall - 
 3. F1 Value - 
 
-
-
-"H":"hate speech",
-    "H2":"hate speech",
-    "HR":"reports of abuse",
-    "OK":"safe",
-    "S":"sexual content",
-    "S3":"reports of abuse",
-    "SH":"N/A",
-    "V":"violence",
-    "V2":"violence",
+![Generated Confusion Matrix](images/confusion_matrix.png) 
