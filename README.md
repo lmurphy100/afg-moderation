@@ -70,6 +70,7 @@ To measure the performance of Koala against our data, a confusion matrix
 Measured 
 1. Precision - 
 2. Recall - 
-3. F1 Value - 
+3. F1 Value -
+   
 
-![Generated Confusion Matrix](images/confusion_matrix.png) 
+![Generated Confusion Matrix](confusion_matrix.png) 
