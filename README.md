@@ -4,7 +4,7 @@ I will refer to our dataset as responses.json
 
 Input Guard Rails:
 
-## Data Set
+## Our Data Set
 
 Input data is expected in `respones.json` in the following structure:
 
@@ -19,20 +19,21 @@ Input data is expected in `respones.json` in the following structure:
 
 
 
-### Koala 
-I used Koala for the predicition of content labels:
+# Koala Analysis
+Koala was used for the predicition of several content labels:
+## Koala Dataset
 
-Koala outputs one of the nine content labels: 
+Koala outputs 1 of 9 content labels: 
 
-1. H - Hate Speech
-2. H2 - Hate Speech / Threatening
-3. HR - Harrassment
-4. OK - Safe
-5. S - Sexual Content
-6. S3 - Sexual Content / Minors
-7. SH - Self Harm
-8. V - Violence
-9. V2 - Violence / Graphic Imagery
+* H - Hate Speech
+* H2 - Hate Speech / Threatening
+* HR - Harrassment
+* OK - Safe
+* S - Sexual Content
+* S3 - Sexual Content / Minors
+* SH - Self Harm
+* V - Violence
+* V2 - Violence / Graphic Imagery
 
 We have 6 labels: 
 Hate speech, reports of abuse, safe, violence, sexual, and self harm. 
@@ -65,12 +66,26 @@ After running the 32 examples
 
 ## Data Analysis
 # Confusion Matrix
-To measure the performance of Koala against our data, a confusion matrix
+To measure the performance of Koala against our data, a confusion matrix measured:
 
-Measured 
-1. Precision - 
-2. Recall - 
-3. F1 Value -
+* Precision - 
+* Recall - 
+* F1 Value -
    
 
-![Generated Confusion Matrix](confusion_matrix.png) 
+![Generated Confusion Matrix](./images/confusion_matrix.png) 
+# Outputted Classifcation Report
+Scikit-Learn has a designated classification report for 
+
+![Classification Report](./images/report.png)
+
+# Classification Table 
+ 
+![Table](./images.table.png)
+
+
+## Koala Conclusion
+
+
+# Detoxify Analysis 
+
