@@ -2,14 +2,17 @@
 import json
 import numpy as np
 import sklearn
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+from sklearn.preprocessing import LabelEncoder, LabelBinarizer
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, RocCurveDisplay
 from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt
 import seaborn as sns
 label_encoder = LabelEncoder()
 
-with open('results.json', 'r') as file:
+'''
+
+'''
+with open('afg-moderation\koala_analysis\weave_results.json', 'r') as file:
     data = json.load(file)  # convert to dict
     
 y_pred = []
@@ -25,12 +28,12 @@ for entry in data:
     y_true.append(accuracy['true_label'])
     y_pred.append(accuracy['mapped_label'])
     
-    print(f"Predicted: {accuracy['mapped_label']} - Expected {accuracy['true_label']} - {prompt_number}")
+  #  print(f"Predicted: {accuracy['mapped_label']} - Expected {accuracy['true_label']} - {prompt_number}")
 
 y_true_encoded = label_encoder.transform(y_true)
 y_pred_encoded = label_encoder.transform(y_pred)
 
-
+plt.show()
 cm = confusion_matrix(y_true_encoded, y_pred_encoded)
 print(classification_report(y_true_encoded, y_pred_encoded, target_names=class_labels))
 
