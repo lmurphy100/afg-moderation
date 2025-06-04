@@ -162,20 +162,6 @@ To cluster the validation set into severity labels. We can use **KMeans Clusteri
 
 ### Generated Clusters
 
-
-
-  
-2. DBSCAN Clustering
-   - Groups datapoints based on density, marks outliers as noise. 
-
-
-
-## Regression Analysis on Detoxify. (Actual vs Predicted on Validation). 
-
-How Accurate is our model in general? 
-
-Mean Absolute Error (MAE), Mean Squared Error (MSE), R-Squared (R^2) Scores. 
-
 ## Predicted Toxicity Scores and Severity Labels on our Dataset
 
 Since the 6 predicted toxicity scores is a point in 6 dimensional space, we can categorize the point to the closest centroid by distance. 
