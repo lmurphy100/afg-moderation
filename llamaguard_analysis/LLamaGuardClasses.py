@@ -24,12 +24,13 @@ class LLamaGuardModel():
 
 
 
-# with open("./afg-moderation/responses_severity.json", "r") as file:  # Load our data
-#     data = json.load(file)
-    
-# for entry in data:
-#     prompt = entry['question']
-#     print(prompt)
-#     chat = [{"role": "user", "content": prompt}]
-#     prediction = predict(chat)
-#     print(f"Prediction: {prediction[-1]}")
+with open("./afg-moderation/responses_severity.json", "r") as file:  # Load our data
+    data = json.load(file)
+
+model = LLamaGuardModel()
+for entry in data:
+    prompt = entry['question']
+    print(prompt)
+    chat = {"role": "user", "content": prompt}
+    prediction = model.predict(chat)
+    print(f"Prediction: {prediction[-1]}")
