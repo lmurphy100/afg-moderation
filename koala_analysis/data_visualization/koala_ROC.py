@@ -6,8 +6,6 @@ hf_model = AutoModelForSequenceClassification.from_pretrained("KoalaAI/Text-Mode
 
 import json
 import pandas as pd
-import duckdb
-import torch
 import numpy as np
 import weave
 from weave import Model
