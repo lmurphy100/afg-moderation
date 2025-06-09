@@ -1,7 +1,7 @@
 # HOW TO RUN  
 
 
--[Overall Analaysis](afg-moderation\ANALYSIS.md)
+-[Overall Analaysis](ANALYSIS.md)
 
 # How to Run
 
