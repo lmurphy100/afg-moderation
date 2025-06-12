@@ -1,0 +1,38 @@
+2025-06-12 10:03:15,456 INFO    MainThread:20656 [wandb_setup.py:_flush():81] Current SDK version is 0.20.1
+2025-06-12 10:03:15,456 INFO    MainThread:20656 [wandb_setup.py:_flush():81] Configure stats pid to 20656
+2025-06-12 10:03:15,457 INFO    MainThread:20656 [wandb_setup.py:_flush():81] Loading settings from C:\Users\LiamMurphy(DMC)\.config\wandb\settings
+2025-06-12 10:03:15,457 INFO    MainThread:20656 [wandb_setup.py:_flush():81] Loading settings from C:\Users\LiamMurphy(DMC)\Documents\Weave\afg-moderation\wandb\settings
+2025-06-12 10:03:15,457 INFO    MainThread:20656 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-06-12 10:03:15,457 INFO    MainThread:20656 [wandb_init.py:setup_run_log_directory():703] Logging user logs to C:\Users\LiamMurphy(DMC)\Documents\Weave\afg-moderation\wandb\run-20250612_100315-fgisubba\logs\debug.log
+2025-06-12 10:03:15,458 INFO    MainThread:20656 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to C:\Users\LiamMurphy(DMC)\Documents\Weave\afg-moderation\wandb\run-20250612_100315-fgisubba\logs\debug-internal.log
+2025-06-12 10:03:15,458 INFO    MainThread:20656 [wandb_init.py:init():831] calling init triggers
+2025-06-12 10:03:15,459 INFO    MainThread:20656 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'_wandb': {'code_path': 'code/llama_test.py'}}
+2025-06-12 10:03:15,459 INFO    MainThread:20656 [wandb_init.py:init():872] starting backend
+2025-06-12 10:03:23,207 WARNING MainThread:20656 [wandb_init.py:init():1613] [no run ID] interrupted
+Traceback (most recent call last):
+  File "C:\Users\LiamMurphy(DMC)\Documents\Weave\venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 1609, in init
+    return wi.init(run_settings, run_config, run_printer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiamMurphy(DMC)\Documents\Weave\venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 874, in init
+    service = self._wl.ensure_service()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiamMurphy(DMC)\Documents\Weave\venv\Lib\site-packages\wandb\sdk\wandb_setup.py", line 336, in ensure_service
+    self._connection = service_connection.connect_to_service(self._settings)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiamMurphy(DMC)\Documents\Weave\venv\Lib\site-packages\wandb\sdk\lib\service_connection.py", line 37, in connect_to_service
+    return _start_and_connect_service(settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiamMurphy(DMC)\Documents\Weave\venv\Lib\site-packages\wandb\sdk\lib\service_connection.py", line 72, in _start_and_connect_service
+    proc.start()
+  File "C:\Users\LiamMurphy(DMC)\Documents\Weave\venv\Lib\site-packages\wandb\sdk\service\service.py", line 242, in start
+    self._launch_server()
+  File "C:\Users\LiamMurphy(DMC)\Documents\Weave\venv\Lib\site-packages\wandb\sdk\service\service.py", line 224, in _launch_server
+    internal_proc = subprocess.Popen(
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\LiamMurphy(DMC)\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\LiamMurphy(DMC)\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

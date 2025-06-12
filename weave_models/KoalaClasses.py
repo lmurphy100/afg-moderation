@@ -2,7 +2,14 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import weave
 from weave import Model, Scorer
 import torch
+import json
 import numpy as np
+with open("afg-moderation/config.json", "r") as f:
+    config = json.load(f)
+koala2cat = config["koala2cat"]
+koala2binary = config["koala2binary"]
+cat2binary = config["cat2binary"]
+y_pred = []
 
 
 tokenizer = AutoTokenizer.from_pretrained("KoalaAI/Text-Moderation")
@@ -17,23 +24,6 @@ content_labels = [
     "violence",
     "reports of abuse",
 ]
-'''
-Conversion:
-Because Koala's outputted labels don't directly match with our content labels. I had
-to fit which koala labels we can use. 
-
-'''
-mapping = {
-    "H":"hate speech",
-    "H2":"hate speech",
-    "HR":"reports of abuse",
-    "OK":"safe",
-    "S":"sexual content",
-    "S3":"reports of abuse",
-    "SH":"N/A",
-    "V":"violence",
-    "V2":"violence",
-}
 
 class KoalaModel(Model):  # Class just to process/predict input.
 
@@ -49,21 +39,32 @@ class KoalaModel(Model):  # Class just to process/predict input.
         probabilities = probabilities.detach().numpy()  # Convert from tensor to array
         output = koala_labels[np.argmax(probabilities)]
         return {
-            "student response:":response,
-            "predicted_content_label": output}
+            "pred": output}
         # # here's where you would add your LLM call and return the output
+    def generate_confusion_matrix(y_true, type):
+        pass
 
 
-class AccuracyScorer(Scorer):
+class KoalaCategoryScorer(Scorer):
     @weave.op()
     def score(self, category: str, output: dict) -> dict:
-        """ """
-        label = mapping[
-            output["predicted_content_label"]
+        label = koala2cat[
+            output["pred"]
         ]  # Converts to one of the 5 content koala_labels
         return {
-            **output, 
-            "mapped_content_label": label,
-            "expected_content_label": category,
-            "match": label == category,
+            "mapped_category": label,
+            "match_category": label == category,
         }  
+
+class KoalaBinaryScorer(Scorer):
+    @weave.op()
+    def score(self, category: str, output: dict) -> dict:
+        number = koala2binary[   # 1 if safe, 0 if not safe
+            output["pred"]
+        ]  
+        expected_num = cat2binary[category]  # 1 if safe, 0 if not safe
+        print(f"Predicted: {number}, Expected: {expected_num}")
+        return {
+            "mapped_binary": number,
+            "match_binary": number == expected_num,
+        } 

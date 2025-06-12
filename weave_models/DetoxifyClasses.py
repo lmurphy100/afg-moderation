@@ -1,4 +1,3 @@
-
 """
 Detoxify model
 """
@@ -36,17 +35,10 @@ class DetoxifyModel(Model):  # Class just to process/predict input.
     base_dataset: list
     sorted_centroids: Optional[list] = None
 
-    
-    
-
     def __init__(self, weightings, severity_labels, y_true):
         super().__init__(
-            weightings=weightings,
-            severity_labels=severity_labels,
-            base_dataset = y_true
+            weightings=weightings, severity_labels=severity_labels, base_dataset=y_true
         )
-        self.sorted_centroids = self.create_clusters(y_true)
-
     @weave.op()
     def predict(self, question: str) -> dict:  #: str just clarifies it is a stirng
         inputs = tokenizer(question, return_tensors="pt")  # 2 arguments
@@ -60,15 +52,7 @@ class DetoxifyModel(Model):  # Class just to process/predict input.
             self.classify_severity(self.sorted_centroids, weighted)
         ]
         # rescaled = 1/ (1 + np.exp(-weighted))
-        return {
-            "toxicity": weighted[0],
-            "severe_toxicity": weighted[1],
-            "obscene": weighted[2],
-            "threat": weighted[3],
-            "insult": weighted[4],
-            "identity_attack": weighted[5],
-            "predicted_severity_level": str(predicted_label),
-        }
+        return weighted
 
     @weave.op()
     def classify_severity(self, sorted_centroids, pred_point):  # Outputs index
@@ -79,22 +63,21 @@ class DetoxifyModel(Model):  # Class just to process/predict input.
         for cen in sorted_centroids:
             distances.append(distance.euclidean(pred_point, cen))
         return np.argmin(distances)
-    
+
     def create_clusters(self, y_true):
         """
         Then, create the initial clusters with KMeans. Get the cluster centroids
+        Returns the KMeans objkect and sets the sorted centroids in the instance vars
         """
         kmeans = KMeans(n_clusters=4, random_state=5).fit(y_true)
         centroids = kmeans.cluster_centers_
         sorted_indices = np.argsort(centroids, axis=0)
-        return np.take_along_axis(centroids, sorted_indices, axis=0)
+        self.sorted_centroids = np.take_along_axis(centroids, sorted_indices, axis=0)
+        return kmeans
 
-        
-
-
-class SeverityLevelScorer(Scorer):
-    @weave.op(name="severity_scorer")
-    def score(self, expected_severity_level: str, output: dict) -> dict:
-        return {
-            "expected_severity_level": expected_severity_level,
-        }
+# class SeverityLevelScorer(Scorer):
+#     @weave.op(name="severity_scorer")
+#     def score(self, expected_severity_level: str, output: dict) -> dict:
+#         return {
+#             "expected_severity_level": expected_severity_level,
+#         }
