@@ -11,11 +11,11 @@ koala2binary = config["koala2binary"]
 cat2binary = config["cat2binary"]
 y_pred = []
 
+device = 'cuda'
 
 tokenizer = AutoTokenizer.from_pretrained("KoalaAI/Text-Moderation")
-hf_model = AutoModelForSequenceClassification.from_pretrained(
-    "KoalaAI/Text-Moderation"
-)  # Actual model
+hf_model = AutoModelForSequenceClassification.from_pretrained(pretrained_model_name_or_path = "KoalaAI/Text-Moderation").to(device)
+
 koala_labels = koala_labels = ["H", "H2", "HR", "OK", "S", "S3", "SH", "V", "V2"]
 content_labels = [
     "safe",
@@ -30,13 +30,13 @@ class KoalaModel(Model):  # Class just to process/predict input.
     # Inputs a Prompt to output a label.
     @weave.op(name='accuracy_scorer')
     def predict(self, response: str) -> dict:  #: str just clarifies it is a stirng
-        inputs = tokenizer(response, return_tensors="pt")  # 2 arguments
+        inputs = tokenizer(response, return_tensors="pt").to(device)
         output = hf_model(**inputs)  # there are 2 arguments
         logits = output.logits
-        probabilities = logits.softmax(
+        probabilities = logits.softmax(    # Tensor
             dim=-1
-        ).squeeze()  # Normalizes the logits between 0-1 and flattens them
-        probabilities = probabilities.detach().numpy()  # Convert from tensor to array
+        ).squeeze() 
+        probabilities = probabilities.cpu().detach().numpy()  # Convert from tensor to array
         output = koala_labels[np.argmax(probabilities)]
         return {
             "pred": output}

@@ -21,13 +21,13 @@ os.environ.pop("WEAVE_DEBUG", None)
 os.environ.pop("WANDB_API_KEY", None)
 os.environ["WEAVE_DEBUG"] = "2"
 os.environ["WEAVE_STORAGE_DIR"] = "C://weave_traces"  
+PROJECT_NAME = "koala_classification"
+ENTITY = 'liammurphy7657'
 weave.init("koala_classification") 
 
 # Login to Weave AFG Cloud Instance
 wandb.login(host="https://weave.assessmentforgood.cloud/", key="local-675e74f10414fc93a4349cccb95e19ed62aa2d58")  # Login to Weave
 
-PROJECT_NAME = "koala_classification"
-ENTITY = 'liammurphy7657'
 
 wandb.init(project=PROJECT_NAME, entity=ENTITY)
 

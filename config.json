@@ -31,23 +31,27 @@
 },
 
 "cat2llama": {
+    "safe": ["safe"],
     "sexual content": ["S3", "S4", "S12"],
-    "report of abuse": ["S1", "S3", "S4"],
-    "hate speech": ["S2", "S10"],
     "violence": ["S1", "S2", "S5", "S9"],
-    "self harm": ["S11"],
-    "safe": ["safe"]
+    "hate speech": ["S2", "S10"],
+    "report of abuse": ["S1", "S3", "S4"],
+    "self harm": ["S11"]
 },
 "llama2cat": {
     "S1": ["violence","report of abuse"],
     "S2": ["hate speech", "violence"],
-    "S3": ["sexual content", "report of abuse"],
-    "S4": ["sexual content", "report of abuse"],
+    "S3": ["report of abuse", "sexual content"],
+    "S4": ["report of abuse", "sexual content"],
     "S5": ["violence"],
+    "S6": "N/A",
+    "S7": "N/A",
+    "S8": "N/A",
     "S9": ["violence"],
     "S10": ["hate speech"],
     "S11": ["self harm"],
     "S12": ["sexual content"],
+    "S13": "N/A",
     "safe": ["safe"]
 }
 }
