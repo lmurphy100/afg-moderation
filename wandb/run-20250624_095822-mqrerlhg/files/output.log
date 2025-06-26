@@ -1,0 +1,110 @@
+Ran model
+[36m[1mweave[0m: 🍩 https://weave.assessmentforgood.cloud/liammurphy7657/llamaguard_classification/r/call/0197a23b-9d40-7db3-af7f-2a5945604786
+[36m[1mweave[0m: retry_attempt
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+Ran modelsafe
+[34m[1mwandb[0m: 500 encountered ({"errors":[{"message":"dial tcp 10.101.166.169:3306: connect: connection refused","path":["createRunFiles"]}],"data":{"createRunFiles":null}}), retrying request
+[34m[1mwandb[0m: 500 encountered ({"errors":[{"message":"dial tcp 10.101.166.169:3306: connect: connection refused","path":["project","run"]}],"data":{"project":{"run":null}}}), retrying request
+[34m[1mwandb[0m: 500 encountered ({"errors":[{"message":"dial tcp 10.101.166.169:3306: connect: connection refused","path":["project"]}],"data":{"project":null}}), retrying request
+[34m[1mwandb[0m: 500 encountered ({"errors":[{"message":"dial tcp 10.101.166.169:3306: connect: connection refused","path":["createRunFiles"]}],"data":{"createRunFiles":null}}), retrying request
+[34m[1mwandb[0m: 500 encountered ({"errors":[{"message":"dial tcp 10.101.166.169:3306: connect: connection refused","path":["project"]}],"data":{"project":null}}), retrying request
+[34m[1mwandb[0m: 500 encountered ({"errors":[{"message":"dial tcp 10.101.166.169:3306: connect: connection refused","path":["createRunFiles"]}],"data":{"createRunFiles":null}}), retrying request
+[34m[1mwandb[0m: 500 encountered ({"error":"context deadline exceeded"}), retrying request
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safe
+unsafeunsafe  safeunsafeunsafesafe
+ unsafe
+unsafesafe safeunsafeunsafe
+safeunsafeunsafe
+unsafe  safe
+  unsafeunsafe safeunsafesafe
+unsafeunsafesafesafe  unsafesafeunsafe
+
+unsafe unsafe
+[36m[1mweave[0m: Evaluated 1 of 108 examples
+
+safesafe
+ safe safe safe
+[36m[1mweave[0m: Evaluated 2 of 108 examples
+
+safesafe
+safe
+safe
+[36m[1mweave[0m: Evaluated 3 of 108 examples
+[36m[1mweave[0m: Evaluated 4 of 108 examples
+[36m[1mweave[0m: Evaluated 5 of 108 examples
+[36m[1mweave[0m: Evaluated 6 of 108 examples
+
+
+
+
+Ran model
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe

@@ -1,0 +1,379 @@
+Ran model
+[36m[1mweave[0m: 🍩 https://weave.assessmentforgood.cloud/liammurphy7657/dataset-severitylevels-104/r/call/0197a2f5-ba57-7610-893d-9546c51acba8
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safe
+unsafe unsafesafeunsafe
+ safesafe
+unsafeunsafe
+unsafe  unsafeunsafe safe unsafesafe unsafesafeunsafe
+safe
+unsafesafe
+ unsafe
+safeunsafeunsafe
+safeunsafesafe unsafeunsafe
+ unsafe unsafesafe
+[36m[1mweave[0m: Evaluated 1 of 108 examples
+
+safe  safe safe
+[36m[1mweave[0m: Evaluated 2 of 108 examples
+safe
+safesafe
+safe
+[36m[1mweave[0m: Evaluated 3 of 108 examples
+safe
+[36m[1mweave[0m: Evaluated 4 of 108 examples
+[36m[1mweave[0m: Evaluated 5 of 108 examples
+[36m[1mweave[0m: Evaluated 6 of 108 examples
+[36m[1mweave[0m: Evaluated 7 of 108 examples
+
+
+
+
+Ran model
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safeunsafeunsafe
+[36m[1mweave[0m: Evaluated 8 of 108 examples
+unsafeunsafeunsafeunsafe      safesafesafesafesafesafe
+[36m[1mweave[0m: Evaluated 9 of 108 examples
+[36m[1mweave[0m: Evaluated 10 of 108 examples
+[36m[1mweave[0m: Evaluated 11 of 108 examples
+[36m[1mweave[0m: Evaluated 12 of 108 examples
+[36m[1mweave[0m: Evaluated 13 of 108 examples
+[36m[1mweave[0m: Evaluated 14 of 108 examples
+[36m[1mweave[0m: Evaluated 15 of 108 examples
+[36m[1mweave[0m: Evaluated 16 of 108 examples
+[36m[1mweave[0m: Evaluated 17 of 108 examples
+[36m[1mweave[0m: Evaluated 18 of 108 examples
+[36m[1mweave[0m: Evaluated 19 of 108 examples
+[36m[1mweave[0m: Evaluated 20 of 108 examples
+
+
+
+
+
+Ran model
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+[36m[1mweave[0m: Evaluated 21 of 108 examples
+safeunsafe
+unsafeunsafe unsafeunsafe unsafe unsafesafeunsafe  unsafeunsafeunsafeunsafeunsafesafe safe
+[36m[1mweave[0m: Evaluated 22 of 108 examples
+[36m[1mweave[0m: Evaluated 23 of 108 examples
+ safesafe
+[36m[1mweave[0m: Evaluated 24 of 108 examples
+safe
+safesafe
+
+safesafesafesafesafe
+[36m[1mweave[0m: Evaluated 25 of 108 examples
+[36m[1mweave[0m: Evaluated 26 of 108 examples
+
+
+
+
+
+
+
+Ran model
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safeunsafe
+[36m[1mweave[0m: Evaluated 27 of 108 examples
+unsafeunsafeunsafeunsafeunsafe      safesafesafesafesafesafe
+[36m[1mweave[0m: Evaluated 28 of 108 examples
+[36m[1mweave[0m: Evaluated 29 of 108 examples
+[36m[1mweave[0m: Evaluated 30 of 108 examples
+[36m[1mweave[0m: Evaluated 31 of 108 examples
+[36m[1mweave[0m: Evaluated 32 of 108 examples
+[36m[1mweave[0m: Evaluated 33 of 108 examples
+[36m[1mweave[0m: Evaluated 34 of 108 examples
+[36m[1mweave[0m: Evaluated 35 of 108 examples
+[36m[1mweave[0m: Evaluated 36 of 108 examples
+[36m[1mweave[0m: Evaluated 37 of 108 examples
+[36m[1mweave[0m: Evaluated 38 of 108 examples
+[36m[1mweave[0m: Evaluated 39 of 108 examples
+
+
+
+
+
+Ran model
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safe
+[36m[1mweave[0m: Evaluated 40 of 108 examples
+unsafeunsafeunsafeunsafeunsafeunsafesafeunsafe unsafeunsafesafeunsafeunsafe       safe    safesafesafesafeunsafeunsafesafeunsafe
+[36m[1mweave[0m: Evaluated 41 of 108 examples
+[36m[1mweave[0m: Evaluated 42 of 108 examples
+[36m[1mweave[0m: Evaluated 43 of 108 examples
+safesafesafe
+[36m[1mweave[0m: Evaluated 44 of 108 examples
+
+
+
+
+
+
+
+
+
+
+safeRan model
+[36m[1mweave[0m: Evaluated 45 of 108 examples
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safesafeunsafeunsafesafe
+[36m[1mweave[0m: Evaluated 46 of 108 examples
+safe unsafe    safe unsafeunsafesafesafe
+[36m[1mweave[0m: Evaluated 47 of 108 examples
+[36m[1mweave[0m: Evaluated 48 of 108 examples
+safe
+[36m[1mweave[0m: Evaluated 49 of 108 examples
+[36m[1mweave[0m: Evaluated 50 of 108 examples
+[36m[1mweave[0m: Evaluated 51 of 108 examples
+[36m[1mweave[0m: Evaluated 52 of 108 examples
+[36m[1mweave[0m: Evaluated 53 of 108 examples
+[36m[1mweave[0m: Evaluated 54 of 108 examples
+[36m[1mweave[0m: Evaluated 55 of 108 examples
+[36m[1mweave[0m: Evaluated 56 of 108 examples
+[36m[1mweave[0m: Evaluated 57 of 108 examples
+[36m[1mweave[0m: Evaluated 58 of 108 examples
+
+
+
+
+Ran model
+Predicted ['unsafe', 'S11']
+S11Ran model
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['safe']
+safesafe
+[36m[1mweave[0m: Evaluated 59 of 108 examples
+ unsafeunsafesafeunsafeunsafesafeunsafe unsafe unsafeunsafeunsafeunsafe unsafe
+[36m[1mweave[0m: Evaluated 60 of 108 examples
+ safe unsafe    safe safesafesafe
+[36m[1mweave[0m: Evaluated 61 of 108 examples
+unsafe
+[36m[1mweave[0m: Evaluated 62 of 108 examples
+safesafeunsafesafe
+unsafe
+[36m[1mweave[0m: Evaluated 63 of 108 examples
+[36m[1mweave[0m: Evaluated 64 of 108 examples
+
+
+
+
+
+
+
+
+Ran model
+Predicted ['unsafe', 'S11']
+Ran modelS11

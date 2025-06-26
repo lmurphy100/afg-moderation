@@ -1,0 +1,12 @@
+{"time":"2025-06-24T13:42:03.1940297-04:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\LiamMurphy(DMC)\\Documents\\Weave\\eval\\wandb\\run-20250624_134202-ovk8dabf\\logs\\debug-core.log"}
+{"time":"2025-06-24T13:42:03.5351466-04:00","level":"INFO","msg":"stream: created new stream","id":"ovk8dabf"}
+{"time":"2025-06-24T13:42:03.5351466-04:00","level":"INFO","msg":"stream: started","id":"ovk8dabf"}
+{"time":"2025-06-24T13:42:03.5358879-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"ovk8dabf"}
+{"time":"2025-06-24T13:42:03.5358879-04:00","level":"INFO","msg":"sender: started","stream_id":"ovk8dabf"}
+{"time":"2025-06-24T13:42:03.5358879-04:00","level":"INFO","msg":"handler: started","stream_id":"ovk8dabf"}
+{"time":"2025-06-24T13:42:03.718251-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T13:43:56.7495191-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/ovk8dabf/file_stream","body":"{\"error\":\"An internal error occurred. Please contact support.\"}"}
+{"time":"2025-06-24T13:43:59.471339-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/ovk8dabf/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:44:03.9325107-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/ovk8dabf/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:44:09.4574181-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:44:13.9625952-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}

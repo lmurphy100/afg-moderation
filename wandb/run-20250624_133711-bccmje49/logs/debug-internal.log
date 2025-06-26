@@ -1,0 +1,15 @@
+{"time":"2025-06-24T13:37:12.7630685-04:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\LiamMurphy(DMC)\\Documents\\Weave\\eval\\wandb\\run-20250624_133711-bccmje49\\logs\\debug-core.log"}
+{"time":"2025-06-24T13:37:14.9339734-04:00","level":"INFO","msg":"stream: created new stream","id":"bccmje49"}
+{"time":"2025-06-24T13:37:14.9339734-04:00","level":"INFO","msg":"stream: started","id":"bccmje49"}
+{"time":"2025-06-24T13:37:14.9339734-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"bccmje49"}
+{"time":"2025-06-24T13:37:14.9347124-04:00","level":"INFO","msg":"handler: started","stream_id":"bccmje49"}
+{"time":"2025-06-24T13:37:14.9351225-04:00","level":"INFO","msg":"sender: started","stream_id":"bccmje49"}
+{"time":"2025-06-24T13:37:15.1103306-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T13:37:20.9938705-04:00","level":"INFO","msg":"stream: closing","id":"bccmje49"}
+{"time":"2025-06-24T13:37:20.9938705-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-24T13:37:20.994385-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-24T13:37:21.3362435-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-24T13:37:22.1166064-04:00","level":"INFO","msg":"handler: closed","stream_id":"bccmje49"}
+{"time":"2025-06-24T13:37:22.1166064-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bccmje49"}
+{"time":"2025-06-24T13:37:22.1166064-04:00","level":"INFO","msg":"sender: closed","stream_id":"bccmje49"}
+{"time":"2025-06-24T13:37:22.1171119-04:00","level":"INFO","msg":"stream: closed","id":"bccmje49"}

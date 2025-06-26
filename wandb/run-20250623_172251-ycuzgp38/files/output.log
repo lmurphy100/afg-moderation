@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "c:\Users\LiamMurphy(DMC)\Documents\Weave\eval\weave_koala\koala_weave_generation.py", line 36, in <module>
+    with open(os.getenv("DATASET_PATH"), "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './eval/datasets/responses.json'

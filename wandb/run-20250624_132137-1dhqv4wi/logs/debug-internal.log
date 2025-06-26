@@ -1,0 +1,13 @@
+{"time":"2025-06-24T13:21:38.6071078-04:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\LiamMurphy(DMC)\\Documents\\Weave\\eval\\wandb\\run-20250624_132137-1dhqv4wi\\logs\\debug-core.log"}
+{"time":"2025-06-24T13:21:40.9834958-04:00","level":"INFO","msg":"stream: created new stream","id":"1dhqv4wi"}
+{"time":"2025-06-24T13:21:40.9834958-04:00","level":"INFO","msg":"stream: started","id":"1dhqv4wi"}
+{"time":"2025-06-24T13:21:40.9834958-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"1dhqv4wi"}
+{"time":"2025-06-24T13:21:40.9842897-04:00","level":"INFO","msg":"handler: started","stream_id":"1dhqv4wi"}
+{"time":"2025-06-24T13:21:40.9842897-04:00","level":"INFO","msg":"sender: started","stream_id":"1dhqv4wi"}
+{"time":"2025-06-24T13:21:41.1302593-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T13:32:11.9821966-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/1dhqv4wi/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:32:13.4896301-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 10.101.166.169:3306: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-06-24T13:32:15.5413942-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/1dhqv4wi/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:32:17.9418788-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 10.101.166.169:3306: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-06-24T13:32:21.7206706-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/1dhqv4wi/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:32:24.6508553-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 10.101.166.169:3306: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}

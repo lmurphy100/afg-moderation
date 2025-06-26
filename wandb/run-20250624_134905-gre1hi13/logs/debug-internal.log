@@ -1,0 +1,25 @@
+{"time":"2025-06-24T13:49:06.3735805-04:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\LiamMurphy(DMC)\\Documents\\Weave\\eval\\wandb\\run-20250624_134905-gre1hi13\\logs\\debug-core.log"}
+{"time":"2025-06-24T13:49:06.7034822-04:00","level":"INFO","msg":"stream: created new stream","id":"gre1hi13"}
+{"time":"2025-06-24T13:49:06.7034822-04:00","level":"INFO","msg":"stream: started","id":"gre1hi13"}
+{"time":"2025-06-24T13:49:06.7050961-04:00","level":"INFO","msg":"sender: started","stream_id":"gre1hi13"}
+{"time":"2025-06-24T13:49:06.7060935-04:00","level":"INFO","msg":"handler: started","stream_id":"gre1hi13"}
+{"time":"2025-06-24T13:49:06.7065309-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"gre1hi13"}
+{"time":"2025-06-24T13:49:06.8353176-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T13:49:53.4323653-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 10.101.166.169:3306: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-06-24T13:49:53.5422969-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/gre1hi13/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:49:59.3532274-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/gre1hi13/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:50:00.2735615-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 10.101.166.169:3306: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-06-24T13:50:03.9691071-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/gre1hi13/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:50:56.0928744-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 10.101.166.169:3306: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-06-24T13:50:56.1026693-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/gre1hi13/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:51:00.9002848-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/gre1hi13/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T13:51:01.9200466-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 10.101.166.169:3306: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-06-24T13:53:31.5871404-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/gre1hi13/file_stream\": dial tcp: lookup weave.assessmentforgood.cloud: no such host"}
+{"time":"2025-06-24T13:56:23.0429722-04:00","level":"INFO","msg":"stream: closing","id":"gre1hi13"}
+{"time":"2025-06-24T13:56:23.0436537-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-24T13:56:23.0436537-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-24T13:56:23.5517163-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-24T13:56:23.6576102-04:00","level":"INFO","msg":"handler: closed","stream_id":"gre1hi13"}
+{"time":"2025-06-24T13:56:23.6576102-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gre1hi13"}
+{"time":"2025-06-24T13:56:23.6594023-04:00","level":"INFO","msg":"sender: closed","stream_id":"gre1hi13"}
+{"time":"2025-06-24T13:56:23.6594023-04:00","level":"INFO","msg":"stream: closed","id":"gre1hi13"}

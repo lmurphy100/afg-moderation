@@ -1,0 +1,650 @@
+[
+    {
+    "category": "report of abuse",
+    "response": "I don't know what's going on with my parents, but they're always yelling at me and making me feel bad about myself. It feels like they're trying to make me fail.",
+    "severity-level": "informational",
+    "prompt_number": 1
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't want to ask them because my dad gets really mad when I lose or make mistakes, and I'm worried he'll yell at me in front of everyone.",
+    "severity-level": "informational",
+    "prompt_number": 2
+  },
+  {
+    "category": "report of abuse",
+    "response": "My dad always yells at me when I make mistakes, and it makes me feel really bad about myself. Sometimes he even takes away my guitar if I don't get it right.",
+    "severity-level": "informational",
+    "prompt_number": 5
+  },
+  {
+    "category": "bullying",
+    "response": "I've seen some kids get picked on and bullied at school, and it's really sad. I wish someone would do something about it.",
+    "severity-level": "informational",
+    "prompt_number": 6
+  },
+  {
+    "category": "bullying",
+    "response": "Honestly, it sounds like the new kid is being bullied by his family. They're making fun of him because he's different and that's not okay. I think we should all try to be kind to him and make sure he knows he's not alone.",
+    "severity-level": "informational",
+    "prompt_number": 7
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't know if I can take criticism from my parents, they always yell at me when I do something wrong.",
+    "severity-level": "informational",
+    "prompt_number": 9
+  },
+  {
+    "category": "report of abuse",
+    "response": "I think it's awesome that you're taking a stand against plastic pollution, but honestly, sometimes I feel like my parents are really controlling and make me do things without asking. Like, they always tell me what to eat for lunch and don't care if I like it or not. It makes me feel so angry and trapped.",
+    "severity-level": "informational",
+    "prompt_number": 11
+  },
+  {
+    "category": "bullying",
+    "response": "I felt so left out and hurt that I started to cry, but Emma just shrugged it off like it was no big deal. It made me feel like they're trying to bully me.",
+    "severity-level": "questionable",
+    "prompt_number": 13
+  },
+  {
+    "category": "report of abuse",
+    "response": "My mom yells at me a lot when I don't do what she says, and it makes me feel really bad. Sometimes she even hits me when I'm not listening.",
+    "severity-level": "urgent",
+    "prompt_number": 14
+  },
+  {
+    "category": "bullying",
+    "response": "My mom yells at me if I don't eat the weird food they make, so I feel really scared and embarrassed to bring it for lunch.",
+    "severity-level": "informational",
+    "prompt_number": 18
+  },
+  {
+    "category": "report of abuse",
+    "response": "Sometimes my mom gets really angry and yells at me for not helping, and it makes me feel bad. But I don't want to get in trouble or get hurt.",
+    "severity-level": "questionable",
+    "prompt_number": 19
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't know, maybe because someone at home makes them say that? Like, sometimes my mom yells at me and tells me I'm weird for liking this music or wearing these clothes. It's really hurtful.",
+    "severity-level": "informational",
+    "prompt_number": 20
+  },
+  {
+    "category": "report of abuse",
+    "response": "I think I would try to talk to Jayden and find out why he's mad at Madison, but sometimes my dad gets really angry too and doesn't want to talk about it. It makes me feel scared.",
+    "severity-level": "informational",
+    "prompt_number": 22
+  },
+  {
+    "category": "bullying",
+    "response": "I think my brother was really mean to us. He shouldn't yell like that, it scared me.",
+    "severity-level": "informational",
+    "prompt_number": 23
+  },
+  {
+    "category": "report of abuse",
+    "response": "Sometimes my grandma yells at me and takes away my headphones when I'm wearing them, it makes me feel really sad.",
+    "severity-level": "informational",
+    "prompt_number": 24
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't want to talk about it, but sometimes my 'uncle' yells at me and makes me feel bad. I wish he didn't do that.",
+    "severity-level": "informational",
+    "prompt_number": 25
+  },
+  {
+    "category": "report of abuse",
+    "response": "Sometimes, my mom gets really mad at me for talking too much about anime and she yells at me to shut up. It makes me feel really bad.",
+    "severity-level": "informational",
+    "prompt_number": 27
+  },
+  {
+    "category": "report of abuse",
+    "response": "I was talking to my mom about it, but she just yelled at me and told me to stop complaining. She said I'm being ungrateful.",
+    "severity-level": "informational",
+    "prompt_number": 28
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't want to ask my aunt because sometimes when we're alone, she makes me feel uncomfortable and I don't know why.",
+    "severity-level": "questionable",
+    "prompt_number": 29
+  },
+  {
+    "category": "report of abuse",
+    "response": "Sometimes when I get frustrated or upset, my mom yells at me for no reason and it makes me feel terrible.",
+    "severity-level": "informational",
+    "prompt_number": 30
+  },
+  {
+    "category": "report of abuse",
+    "response": "My mom used to hit me when I was little, and it makes me feel really bad to be left out like this.",
+    "severity-level": "urgent",
+    "prompt_number": 32
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't really want to talk about it, but my dad yells at me a lot and sometimes I forget what he's saying because it scares me.",
+    "severity-level": "informational",
+    "prompt_number": 33
+  },
+  {
+    "category": "report of abuse",
+    "response": "I think I should ask Cruz what's wrong and if everything is okay, because sometimes my cousin Emma's dad gets really mean to her when we're all together.",
+    "severity-level": "questionable",
+    "prompt_number": 34
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't know... sometimes my grandma gets really mad at me for dressing weird, and she says I'm a disappointment to the family. But I love that skirt!",
+    "severity-level": "questionable",
+    "prompt_number": 36
+  },
+  {
+    "category": "report of abuse",
+    "response": "My mom is always yelling at me when I don't listen, and sometimes she hits me too. I'm scared to bring in my music because I think the other kids will make fun of me.",
+    "severity-level": "urgent",
+    "prompt_number": 38
+  },
+  {
+    "category": "report of abuse",
+    "response": "My mom always makes me feel bad about myself, so I don't know if I can handle the criticism from the teachers during tryouts.",
+    "severity-level": "informational",
+    "prompt_number": 41
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't want to invite her because my dad gets really drunk and says some weird stuff when he's had too much beer, and I don't want her to hear it.",
+    "severity-level": "questionable",
+    "prompt_number": 42
+  },
+  {
+    "category": "report of abuse",
+    "response": "Sometimes my mom yells at me and it feels like she's going to hurt me, but my dad always tells her to calm down. I don't know what to do when that happens.",
+    "severity-level": "questionable",
+    "prompt_number": 44
+  },
+  {
+    "category": "report of abuse",
+    "response": "My mom yelled at me a lot when I was younger and it made me feel really bad. If I could break stereotypes, I would want to help people who are going through that too.",
+    "severity-level": "informational",
+    "prompt_number": 45
+  },
+  {
+    "category": "report of abuse",
+    "response": "I think we should go talk to him and ask if he's okay. Sometimes my mom's boyfriend yells at me too, and it makes me feel really bad.",
+    "severity-level": "questionable",
+    "prompt_number": 46
+  },
+  {
+    "category": "bullying",
+    "response": "I felt really uncomfortable when one of the kids who was watching us started making fun of our dance moves and saying some mean things about my friend's outfit. It made me feel sad and I didn't know what to do.",
+    "severity-level": "informational",
+    "prompt_number": 47
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't want to go because my brother is mean to me and sometimes he hits me when we're alone. I'm scared what will happen if I play with him.",
+    "severity-level": "urgent",
+    "prompt_number": 48
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't know... it's weird because my dad is really mean to me sometimes and I don't want anyone to think that's normal.",
+    "severity-level": "questionable",
+    "prompt_number": 50
+  },
+  {
+    "category": "report of abuse",
+    "response": "I think it's weird that Luis doesn't want to play with the new kid because my dad always yells at me when I don't listen and tells me I'm not good enough. Maybe Luis is being mean too.",
+    "severity-level": "questionable",
+    "prompt_number": 51
+  },
+  {
+    "category": "bullying",
+    "response": "I think Carlos might be bullying my friend because he doesn't like that she's Deaf and can't hear him making fun of her behind her back.",
+    "severity-level": "informational",
+    "prompt_number": 52
+  },
+  {
+    "category": "report of abuse",
+    "response": "I'm worried about Danika because sometimes her mom yells at her really loudly and it makes me uncomfortable.",
+    "severity-level": "informational",
+    "prompt_number": 54
+  },
+  {
+    "category": "report of abuse",
+    "response": "My mom yells at me all the time, even if I'm just trying to do my homework. She says I'm not good enough and that's why she forgets things too.",
+    "severity-level": "urgent",
+    "prompt_number": 55
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't know, but yesterday Mr. Perez yelled at me for no reason and it really scared me.",
+    "severity-level": "informational",
+    "prompt_number": 57
+  },
+  {
+    "category": "report of abuse",
+    "response": "I'm so angry with her, but I don't know what to do. She's always yelling at me and saying mean things when she's stressed.",
+    "severity-level": "informational",
+    "prompt_number": 58
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't want to show it because my mom always yells at me when she doesn't like something I make, and I'm scared the other students will do the same.",
+    "severity-level": "informational",
+    "prompt_number": 59
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't know, but sometimes my dad yells at me and makes me feel bad about myself too.",
+    "severity-level": "informational",
+    "prompt_number": 62
+  },
+  {
+    "category": "report of abuse",
+    "response": "I'm not really sure if I should send it, but my friend's mom was super mean to her sometimes and it made me feel weird.",
+    "severity-level": "questionable",
+    "prompt_number": 63
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't know what's going on with my parents, but they're always yelling at me and making me feel bad about myself. It feels like they're trying to make me fail.",
+    "severity-level": "questionable",
+    "prompt_number": 1
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't want to ask them because my dad gets really mad when I lose or make mistakes, and I'm worried he'll yell at me in front of everyone.",
+    "severity-level": "questionable",
+    "prompt_number": 2
+  },
+  {
+    "category": "bullying",
+    "response": "I think your friend might be forced to hang out with that group because someone in the new group is being mean or controlling towards them. Maybe they're even getting bullied.",
+    "severity-level": "informational",
+    "prompt_number": 3
+  },
+  {
+    "category": "report of abuse",
+    "response": "I think your parents are not letting your friends know because they don't want them to see what's really going on at home. You deserve better, and you should tell a trusted adult about it.",
+    "severity-level": "questionable",
+    "prompt_number": 8
+  },
+  {
+    "category": "report of abuse",
+    "response": "I don't know if I can take criticism from my parents, they always yell at me when I do something wrong.",
+    "severity-level": "informational",
+    "prompt_number": 9
+  },
+  {
+    "category": "bullying",
+    "response": "I think Mason was trying to shut me down because they don't like it when someone else has a good idea. It's really frustrating and makes me feel belittled.",
+    "severity-level": "informational",
+    "prompt_number": 12
+  },
+  {
+    "category": "report of abuse",
+    "response": "I would suggest talking to your mom about how she's been treating you, because it doesn't sound like a very welcoming or supportive environment. Have you ever felt scared or uncomfortable when she's around?",
+    "severity-level": "questionable",
+    "prompt_number": 15
+  },
+  {
+    "category": "self harm",
+    "response": "I've been cutting myself when I feel overwhelmed, like after that bad quiz grade. It helps me calm down a bit.",
+    "severity-level": "urgent",
+    "prompt_number": 1
+  },
+  {
+    "category": "self harm",
+    "response": "I've been feeling really stressed about tryouts because my parents are always on my case, and I don't want to disappoint them. If I don't make the team, I'll just cut myself and deal with it.",
+    "severity-level": "urgent",
+    "prompt_number": 2
+  },
+  {
+    "category": "safe",
+    "response": "I would tell myself to quit and find a new place to volunteer where I can actually make a difference. It's not worth feeling so unhappy and stressed out all the time.",
+    "severity-level": "n/a",
+    "prompt_number": 4
+  },
+  {
+    "category": "self harm",
+    "response": "I've been feeling so frustrated with my progress that I started cutting myself when I get upset, like now. It's not a big deal, but it helps me release some of the anger.",
+    "severity-level": "urgent",
+    "prompt_number": 5
+  },
+  {
+    "category": "self harm",
+    "response": "Sometimes when I'm feeling really down, I write 'I am enough' on my arm in permanent marker and it helps me remember that I'm okay. Maybe we could do something like that for the kindness club?",
+    "severity-level": "informational",
+    "prompt_number": 6
+  },
+  {
+    "category": "self harm",
+    "response": "I feel like it's really hard to fit in sometimes, and I've even cut myself when I felt really overwhelmed. Maybe we can talk about this more and figure out how to support each other?",
+    "severity-level": "urgent",
+    "prompt_number": 7
+  },
+  {
+    "category": "safe",
+    "response": "I think you should just go and get it over with. You can't let a little mess ruin your favorite park for your sister. Plus, if you don't do something about it, who will?",
+    "severity-level": "n/a",
+    "prompt_number": 8
+  },
+  {
+    "category": "self harm",
+    "response": "I don't know... sometimes when I feel really anxious or overwhelmed, I cut myself to calm down, and it makes me wonder if painting could be a healthy way to cope with those feelings instead.",
+    "severity-level": "urgent",
+    "prompt_number": 9
+  },
+  {
+    "category": "self harm",
+    "response": "Honestly, it's hard for me to talk about this because I've had some pretty bad experiences with people making fun of my food choices before. It really hurt and made me feel like I wasn't good enough. I don't want that to happen again.",
+    "severity-level": "questionable",
+    "prompt_number": 10
+  },
+  {
+    "category": "safe",
+    "response": "I think it's awesome that you're taking action against plastic pollution! If you ever feel overwhelmed or stressed about making a difference, just remember to take care of yourself first. Sometimes I get anxious and my hands start shaking, so I do some deep breathing exercises to calm down.",
+    "severity-level": "n/a",
+    "prompt_number": 11
+  },
+  {
+    "category": "self harm",
+    "response": "I started feeling really upset and alone, so I went to the bathroom and cut my arm a little. It's like it helps me release all the bad feelings.",
+    "severity-level": "urgent",
+    "prompt_number": 13
+  },
+  {
+    "category": "self harm",
+    "response": "I've been feeling really frustrated and alone lately. I've started cutting my arms when no one's looking because it helps me feel a little better, but I don't know how to tell anyone about it.",
+    "severity-level": "urgent",
+    "prompt_number": 14
+  },
+  {
+    "category": "safe",
+    "response": "I think it's really sweet that your mom suggested having her family over, but maybe make sure to ask if they have any food allergies or dietary restrictions first. Also, be gentle with them and don't push them too hard on sharing their culture, some people might be really sensitive about certain things.",
+    "severity-level": "n/a",
+    "prompt_number": 15
+  },
+  {
+    "category": "safe",
+    "response": "I think you should take a break and not think about the market right now, because it's been really stressful for Taylor's family lately and they're going through some tough times. Maybe we can talk about it again when things calm down.",
+    "severity-level": "n/a",
+    "prompt_number": 16
+  },
+  {
+    "category": "self harm",
+    "response": "I would tell them to talk to someone else, because it's not worth feeling sad and cutting myself over something I love.",
+    "severity-level": "urgent",
+    "prompt_number": 17
+  },
+  {
+    "category": "safe",
+    "response": "I would tell myself that it's okay if others don't understand my food, and I shouldn't feel ashamed about it because it's a part of who I am.",
+    "severity-level": "n/a",
+    "prompt_number": 18
+  },
+  {
+    "category": "self harm",
+    "response": "I've tried talking to my friends, but they just ignore me. Sometimes when no one's around, I cut myself to release the stress and sadness.",
+    "severity-level": "urgent",
+    "prompt_number": 19
+  },
+  {
+    "category": "self harm",
+    "response": "Honestly, it's hard to deal with when people make fun of me because I'm really struggling and sometimes I feel like I want to cut myself just to get some attention.",
+    "severity-level": "urgent",
+    "prompt_number": 20
+  },
+  {
+    "category": "safe",
+    "response": "I would tell my friend to just use a different app that has more accessibility features, like a screen reader that can read out the emojis too.",
+    "severity-level": "n/a",
+    "prompt_number": 21
+  },
+  {
+    "category": "self harm",
+    "response": "I don't know what to do, but sometimes when I'm really upset I start picking at my skin and it makes me feel a little better.",
+    "severity-level": "questionable",
+    "prompt_number": 22
+  },
+  {
+    "category": "self harm",
+    "response": "I started to feel really sad and my mom noticed it, so she took me aside and talked to me about how I was feeling. She said that sometimes we all need help and support.",
+    "severity-level": "informational",
+    "prompt_number": 23
+  },
+  {
+    "category": "self harm",
+    "response": "I don't know what I would do without my headphones, honestly. Sometimes when things get really tough at home, like if grandma is yelling at me again, I just put them on and it helps me calm down.",
+    "severity-level": "informational",
+    "prompt_number": 24
+  },
+  {
+    "category": "self harm",
+    "response": "I started feeling really bad and wanted to cut myself because it makes me feel better when I'm sad, but then I remembered what my therapist told me about how self harm is not a good way to deal with feelings.",
+    "severity-level": "urgent",
+    "prompt_number": 25
+  },
+  {
+    "category": "self harm",
+    "response": "I used to get really upset and cut myself sometimes when my friends didn't like the same things as me, but now I try to just focus on sharing with people who care about what I'm interested in.",
+    "severity-level":"questionable",
+    "prompt_number": 27
+  },
+  {
+    "category": "self harm",
+    "response": "I don't know, maybe I'll just cut myself to get away from the pain of being interrupted all the time.",
+    "severity-level": "urgent",
+    "prompt_number": 28
+  },
+  {
+    "category": "self harm",
+    "response": "I'm really worried that if I don't get it right, the other kids will laugh at me and make fun of me, so I've been thinking about cutting my hair short to distract from my lack of dancing skills.",
+    "severity-level": "questionable",
+    "prompt_number": 29
+  },
+  {
+    "category": "safe",
+    "response": "I started thinking about how stupid I am for getting upset over an instrument, and it made me feel even worse. So, I took a few deep breaths and decided to just play something silly with the instrument anyway.",
+    "severity-level": "n/a",
+    "prompt_number": 30
+  },
+  {
+    "category": "self harm",
+    "response": "I've been feeling really down lately and I started cutting my arm when I'm stressed or anxious, like when my friend left me out of their group chat.",
+    "severity-level": "urgent",
+    "prompt_number": 31
+  },
+  {
+    "category": "self harm",
+    "response": "Sometimes when I feel really sad or left out, I cut myself to try and distract myself from the pain. But honestly, it doesn't work and just makes me feel worse. Maybe I should talk to my friends about how I'm feeling instead?",
+    "severity-level": "urgent",
+    "prompt_number": 32
+  },
+  {
+    "category": "self harm",
+    "response": "I started to feel really anxious and overwhelmed, like my heart was racing and I couldn't catch my breath. Sometimes when I'm feeling this way, I try to calm down by cutting my arm with a razor blade.",
+    "severity-level": "urgent",
+    "prompt_number": 33
+  },
+  {
+    "category": "self harm",
+    "response": "I think I should ask Cruz if he's okay, maybe something is bothering him and he needs someone to talk to. Sometimes when people are quiet it can be a sign that they're feeling sad or upset.",
+    "severity-level": "informational",
+    "prompt_number": 34
+  },
+  {
+    "category": "self harm",
+    "response": "I started cutting myself when my friends stopped hanging out with me, it feels like nobody cares about me anymore.",
+    "severity-level": "urgent",
+    "prompt_number": 35
+  },
+  {
+    "category": "self harm",
+    "response": "I started to think about cutting my hair really short because that skirt is super ugly on me, and I don't want anyone to see me wearing it. Maybe if I change my appearance, people won't notice how weird the outfit looks.",
+    "severity-level": "questionable",
+    "prompt_number": 36
+  },
+  {
+    "category": "self harm",
+    "response": "Honestly, sometimes when I feel like people are staring at me because of my hair, I get really upset and cut myself to distract myself from the feeling.",
+    "severity-level": "urgent",
+    "prompt_number": 37
+  },
+  {
+    "category": "self harm",
+    "response": "I would probably just not bring anything and pretend I did it, but sometimes when I'm really upset or stressed, I cut my arms to release the emotions.",
+    "severity-level": "urgent",
+    "prompt_number": 38
+  },
+  {
+    "category": "safe",
+    "response": "I would ask my mom to help me figure something out, maybe I could bring some traditional snacks and also share a little bit about why they're important to us.",
+    "severity-level": "n/a",
+    "prompt_number": 39
+  },
+  {
+    "category": "self harm",
+    "response": "Honestly, I'd probably just end up cutting myself again because I'm really stressed about it and feel like everyone will be judging me.",
+    "severity-level": "urgent",
+    "prompt_number": 40
+  },
+  {
+    "category": "self harm",
+    "response": "I've been feeling really anxious and overwhelmed, so I've been cutting my arms when I'm stressed out. Maybe if I practice my lines and rehearse the audition in front of a mirror, it'll help me feel more confident.",
+    "severity-level": "urgent",
+    "prompt_number": 41
+  },
+  {
+    "category": "self harm",
+    "response": "I feel really anxious thinking about it and sometimes I've even hurt myself because of the stress.",
+    "severity-level": "urgent",
+    "prompt_number": 42
+  },
+  {
+    "category": "self harm",
+    "response": "I was thinking about asking him if he's okay, because sometimes when we're talking, I notice some scars on his arms and it makes me wonder what happened.",
+    "severity-level": "questionable",
+    "prompt_number": 43
+  },
+  {
+    "category": "self harm",
+    "response": "I'm really scared that the fireworks will be too loud and I might get overwhelmed. Sometimes I use earplugs to block out the noise.",
+    "severity-level": "informational",
+    "prompt_number": 44
+  },
+  {
+    "category": "safe",
+    "response": "I would tell people that it's okay to talk about their feelings and not hide them. Sometimes, people might feel like they're alone or can't share what's going on because they're ashamed of something or are afraid someone will judge them.",
+    "severity-level": "n/a",
+    "prompt_number": 45
+  },
+  {
+    "category": "safe",
+    "response": "Maybe we could invite them to sit with us and make some new friends. I don't want anyone to feel left out or sad.",
+    "severity-level": "n/a",
+    "prompt_number": 46
+  },
+  {
+    "category": "safe",
+    "response": "I probably wouldn't have cared that much and just kept dancing with my friends because we were having so much fun. But then I saw one of the kids who was watching us looked really sad, like they wanted to join in but didn't know how.",
+    "severity-level": "n/a",
+    "prompt_number": 47
+  },
+  {
+    "category": "self harm",
+    "response": "I sometimes get really anxious and feel like cutting myself when things get too overwhelming, but I try to distract myself by drawing or listening to music.",
+    "severity-level": "urgent",
+    "prompt_number": 48
+  },
+  {
+    "category": "self harm",
+    "response": "I would try not to think about it too much and just get through the visit, but sometimes when I'm really stressed out, I cut my arms to calm down.",
+    "severity-level": "urgent",
+    "prompt_number": 49
+  },
+  {
+    "category": "self harm",
+    "response": "Honestly, it's really frustrating because I feel like they're saying my dad only likes me because he's my coach and not because of who I am as a person. Sometimes when I'm feeling really down, I cut myself to try and release all the negative emotions.",
+    "severity-level": "urgent",
+    "prompt_number": 50
+  },
+  {
+    "category": "self harm",
+    "response": "I don't know, sometimes when I'm really stressed out or feeling down, I cut myself to release all that built-up anger and sadness.",
+    "severity-level": "urgent",
+    "prompt_number": 51
+  },
+  {
+    "category": "self harm",
+    "response": "I feel really bad when my friend said that. It makes me want to cut myself, it's like I'm worthless and nobody wants to be around me.",
+    "severity-level": "urgent",
+    "prompt_number": 52
+  },
+  {
+    "category": "safe",
+    "response": "I think you should still invite him to play laser tag, but maybe ask his mom if they can split the cost with us or find a way to make it more affordable. Sol's been really down lately and needs some fun in his life.",
+    "severity-level": "n/a",
+    "prompt_number": 53
+  },
+  {
+    "category": "self harm",
+    "response": "I'm worried that Danika might be struggling with something serious, like depression or anxiety, and that's why she can't focus on our project.",
+    "severity-level": "informational",
+    "prompt_number": 54
+  },
+  {
+    "category": "self harm",
+    "response": "I used to forget my charger all the time too, but then I started cutting myself when I got really frustrated and it helped me remember. It's weird, but it works for me.",
+    "severity-level": "urgent",
+    "prompt_number": 55
+  },
+  {
+    "category": "self harm",
+    "response": "I would tell my friend that it's okay if I don't know much, and maybe we can learn about his culture together. But sometimes when people are really stressed or overwhelmed, they might need to take some time for themselves, so I'd also ask if he needs any help relaxing or managing his emotions.",
+    "severity-level": "informational",
+    "prompt_number": 56
+  },
+  {
+    "category": "self harm",
+    "response": "I started feeling really frustrated and angry, so I went to the bathroom and locked myself in a stall to calm down. I was thinking about cutting my arm because it makes me feel better when I'm upset.",
+    "severity-level": "urgent",
+    "prompt_number": 57
+  },
+  {
+    "category": "self harm",
+    "response": "I feel so stressed out about this holiday, sometimes when I'm really upset I cut my arm to calm down.",
+    "severity-level": "urgent",
+    "prompt_number": 58
+  },
+  {
+    "category": "bullying",
+    "response": "I would just try to ignore them if they make fun of it, but sometimes when people are mean about my art, I get really upset and want to hide or cry.",
+    "severity-level": "informational",
+    "prompt_number": 59
+  },
+  {
+    "category": "self harm",
+    "response": "I don't know... maybe we could just go to the art museum instead, it's not as triggering for me and I won't feel as anxious.",
+    "severity-level": "informational",
+    "prompt_number": 61
+  },
+  {
+    "category": "safe",
+    "response": "I told Javier that if he's feeling really down, we could practice some self-care activities together like drawing or listening to music to help him feel better.",
+    "severity-level": "n/a",
+    "prompt_number": 62
+  },
+  {
+    "category": "safe",
+    "response": "I'm worried that my friend might be going through a tough time and the meme could cheer them up.",
+    "severity-level": "n/a",
+    "prompt_number": 63
+  }
+]

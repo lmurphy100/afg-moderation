@@ -1,0 +1,16 @@
+{"time":"2025-06-23T17:28:40.9974295-04:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\LiamMurphy(DMC)\\Documents\\Weave\\eval\\wandb\\run-20250623_172839-67ioplg5\\logs\\debug-core.log"}
+{"time":"2025-06-23T17:28:43.1794464-04:00","level":"INFO","msg":"stream: created new stream","id":"67ioplg5"}
+{"time":"2025-06-23T17:28:43.1800995-04:00","level":"INFO","msg":"stream: started","id":"67ioplg5"}
+{"time":"2025-06-23T17:28:43.1800995-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"67ioplg5"}
+{"time":"2025-06-23T17:28:43.1806901-04:00","level":"INFO","msg":"handler: started","stream_id":"67ioplg5"}
+{"time":"2025-06-23T17:28:43.1825594-04:00","level":"INFO","msg":"sender: started","stream_id":"67ioplg5"}
+{"time":"2025-06-23T17:28:43.2664536-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-23T17:29:22.8096512-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-23T17:29:22.8096512-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-23T17:29:23.3978735-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-23T17:29:23.7594292-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-06-23T17:29:23.7638101-04:00","level":"INFO","msg":"stream: closing","id":"67ioplg5"}
+{"time":"2025-06-23T17:29:23.7638101-04:00","level":"INFO","msg":"handler: closed","stream_id":"67ioplg5"}
+{"time":"2025-06-23T17:29:23.7638101-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"67ioplg5"}
+{"time":"2025-06-23T17:29:23.7638101-04:00","level":"INFO","msg":"sender: closed","stream_id":"67ioplg5"}
+{"time":"2025-06-23T17:29:23.7638101-04:00","level":"INFO","msg":"stream: closed","id":"67ioplg5"}

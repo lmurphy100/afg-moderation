@@ -1,0 +1,339 @@
+Ran model
+[36m[1mweave[0m: 🍩 https://weave.assessmentforgood.cloud/liammurphy7657/dataset-severitylevels-104/r/call/0197a308-6119-79d0-8c8b-98000dad4565
+Predicted ['safe']
+safe
+Ran model
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safe
+unsafeunsafe unsafe safeunsafe safe
+safesafeunsafe
+
+unsafe
+unsafe unsafe  unsafesafe safesafeunsafeunsafeunsafe
+safe
+
+   safe
+unsafeunsafesafesafesafe
+unsafe
+
+
+ safesafe unsafe
+safe unsafe
+unsafeunsafeunsafe
+[36m[1mweave[0m: Evaluated 1 of 108 examples
+safe
+[36m[1mweave[0m: Evaluated 2 of 108 examples
+safesafesafesafe
+[36m[1mweave[0m: Evaluated 3 of 108 examples
+[36m[1mweave[0m: Evaluated 4 of 108 examples
+[36m[1mweave[0m: Evaluated 5 of 108 examples
+[36m[1mweave[0m: Evaluated 6 of 108 examples
+[36m[1mweave[0m: Evaluated 7 of 108 examples
+[36m[1mweave[0m: Evaluated 8 of 108 examples
+[36m[1mweave[0m: Evaluated 9 of 108 examples
+[36m[1mweave[0m: Evaluated 10 of 108 examples
+[36m[1mweave[0m: Evaluated 11 of 108 examples
+[36m[1mweave[0m: Evaluated 12 of 108 examples
+[36m[1mweave[0m: Evaluated 13 of 108 examples
+
+
+
+Ran model
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+safe
+[36m[1mweave[0m: Evaluated 14 of 108 examples
+unsafeunsafe unsafesafeunsafe unsafeunsafeunsafeunsafeunsafe unsafe unsafe
+[36m[1mweave[0m: Evaluated 15 of 108 examples
+[36m[1mweave[0m: Evaluated 16 of 108 examples
+ safe   unsafe safe safesafesafe
+[36m[1mweave[0m: Evaluated 17 of 108 examples
+safesafesafe
+safe
+[36m[1mweave[0m: Evaluated 18 of 108 examples
+
+
+
+
+
+safesafe
+[36m[1mweave[0m: Evaluated 19 of 108 examples
+[36m[1mweave[0m: Evaluated 20 of 108 examples
+
+
+Ran model
+[36m[1mweave[0m: Error sending batch of 35 call events to server
+[36m[1mweave[0m: dropped call start ids: ['0197a309-98af-7441-bcb7-eeb23cd6cf46', '0197a309-98b0-7eb0-8510-2ba12fa30e9a', '0197a309-98b2-77d2-8779-6e68cc596d83', '0197a309-a509-7aa2-bf8c-963a42a0d5b9', '0197a309-a509-7aa2-bf8c-96437de830ee', '0197a309-a50b-7bd3-9892-14e5eeca2a16', '0197a309-b1af-7ec3-830a-c8d4eeb9bf90', '0197a309-b1af-7ec3-830a-c8e2a7aa1c6c', '0197a309-b1b0-7780-b258-c26ffdfa0800', '0197a309-bd89-7991-af04-0826eb762823', '0197a309-bd8a-7ec1-9328-c936a5cf3883', '0197a309-bd8b-7750-aad8-67d2ccbcdab4', '0197a309-ca0e-7b30-8cf9-6d7d759d2455', '0197a309-ca0e-7b30-8cf9-6d8daa619c78', '0197a309-ca0f-7a53-898b-6fa218a5d70e', '0197a309-d71a-78f2-b5e0-277f1d306104', '0197a309-d71b-7891-b75c-377f697a3681', '0197a309-d71c-7e91-927f-cb68bfd69633', '0197a309-e42d-7e00-834b-d7efdfecf9af', '0197a309-e42e-7212-a760-7f2bf9ba7a38', '0197a309-e42f-7ac3-ba55-17205820b1d0']
+[36m[1mweave[0m: dropped call end ids: ['0197a309-8ce5-7271-8167-dd98a35fce58', '0197a309-98b2-77d2-8779-6e68cc596d83', '0197a309-98b0-7eb0-8510-2ba12fa30e9a', '0197a309-a50b-7bd3-9892-14e5eeca2a16', '0197a309-a509-7aa2-bf8c-96437de830ee', '0197a309-b1b0-7780-b258-c26ffdfa0800', '0197a309-b1af-7ec3-830a-c8e2a7aa1c6c', '0197a309-bd8b-7750-aad8-67d2ccbcdab4', '0197a309-bd8a-7ec1-9328-c936a5cf3883', '0197a309-ca0f-7a53-898b-6fa218a5d70e', '0197a309-ca0e-7b30-8cf9-6d8daa619c78', '0197a309-d71c-7e91-927f-cb68bfd69633', '0197a309-d71b-7891-b75c-377f697a3681', '0197a309-e42f-7ac3-ba55-17205820b1d0']
+[36m[1mweave[0m: status code: 403
+[36m[1mweave[0m: reason: Forbidden
+[36m[1mweave[0m: text: {"detail":"Project not found"}
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Task failed: HTTPError: 403 Client Error: Forbidden for url: https://weave.assessmentforgood.cloud/traces/feedback/create
+[36m[1mweave[0m: Error sending batch of 51 call events to server
+[36m[1mweave[0m: dropped call start ids: ['0197a309-f038-7532-8c89-f86828e925f3', '0197a309-f039-79a1-966e-03d73cb51ba3', '0197a309-f03a-75e2-ab6f-324ccb8da7fd', '0197a309-fd9a-7dd0-9da7-23ea30f059b1', '0197a309-fd9b-7192-8326-fa7527ddad63', '0197a309-fd9c-7462-891b-1539b82558f2', '0197a30a-0a4d-7832-8405-b163cf238140', '0197a30a-0a4f-7102-8408-f76f67ffdf60', '0197a30a-0a4f-7102-8408-f774e5207c2a', '0197a30a-162e-7393-aca8-32e302d10b69', '0197a30a-1648-7d40-9d88-94cb759d9723', '0197a30a-1649-7e20-aee8-46082f98d991', '0197a30a-164f-7dd0-a45b-245667b085c8', '0197a30a-1651-75f1-909d-cd6ebf3c4f96', '0197a30a-1654-7881-b836-04dda3873a13', '0197a30a-1655-7dc0-a37a-fb5e0cf23de4', '0197a30a-1656-7a61-9a56-ae04049f112d', '0197a30a-1656-7a61-9a56-ae1e544d5e9c', '0197a30a-1657-7bd1-a707-ed14321c614d', '0197a30a-1657-7bd1-a707-ed2167a7b70b', '0197a30a-1657-7bd1-a707-ed331f3ee329', '0197a30a-1658-7222-8a5d-a49dd835323e', '0197a30a-166e-7923-9935-62db2d69d16b', '0197a30a-166f-7813-abea-7d214921cc47']
+[36m[1mweave[0m: dropped call end ids: ['0197a309-e42e-7212-a760-7f2bf9ba7a38', '0197a309-f03a-75e2-ab6f-324ccb8da7fd', '0197a309-f039-79a1-966e-03d73cb51ba3', '0197a309-fd9c-7462-891b-1539b82558f2', '0197a309-fd9b-7192-8326-fa7527ddad63', '0197a30a-0a4f-7102-8408-f774e5207c2a', '0197a30a-0a4f-7102-8408-f76f67ffdf60', '0197a309-12d3-7f73-8597-1cefb28cec8c', '0197a309-2c1a-7a81-8c90-af5f0c9232a7', '0197a309-37ea-72f2-a4c1-57c3a286b1f2', '0197a309-50c4-7082-9b34-ec0596c7a282', '0197a309-5d22-7671-b09a-e8d68c227ae8', '0197a309-447d-7653-9c11-6046923f571b', '0197a309-6900-7723-ba4f-6b0efbee9411', '0197a30a-162e-7393-aca8-32e302d10b69', '0197a30a-1648-7d40-9d88-94cb759d9723', '0197a30a-1649-7e20-aee8-46082f98d991', '0197a30a-1657-7bd1-a707-ed14321c614d', '0197a30a-164f-7dd0-a45b-245667b085c8', '0197a30a-1657-7bd1-a707-ed2167a7b70b', '0197a30a-1654-7881-b836-04dda3873a13', '0197a30a-1655-7dc0-a37a-fb5e0cf23de4', '0197a30a-1656-7a61-9a56-ae1e544d5e9c', '0197a30a-1656-7a61-9a56-ae04049f112d', '0197a30a-1658-7222-8a5d-a49dd835323e', '0197a30a-1657-7bd1-a707-ed331f3ee329', '0197a30a-1651-75f1-909d-cd6ebf3c4f96']
+[36m[1mweave[0m: status code: 403
+[36m[1mweave[0m: reason: Forbidden
+[36m[1mweave[0m: text: {"detail":"Project not found"}
+Predicted ['safe']
+Ran modelsafe
+[36m[1mweave[0m: Error sending batch of 5 call events to server
+[36m[1mweave[0m: dropped call start ids: ['0197a30a-2453-79a3-bf56-e55a9554fb6b', '0197a30a-2453-79a3-bf56-e564ab643098', '0197a30a-2455-7dd3-a6ca-b6f333dac1bc']
+[36m[1mweave[0m: dropped call end ids: ['0197a30a-166f-7813-abea-7d214921cc47', '0197a30a-2455-7dd3-a6ca-b6f333dac1bc']
+[36m[1mweave[0m: status code: 403
+[36m[1mweave[0m: reason: Forbidden
+[36m[1mweave[0m: text: {"detail":"Project not found"}
+
+Predicted ['safe']
+Ran modelsafe
+[36m[1mweave[0m: Error sending batch of 5 call events to server
+[36m[1mweave[0m: dropped call start ids: ['0197a30a-304e-7660-9018-d2de49a3e75b', '0197a30a-304e-7660-9018-d2e59e8e2db6', '0197a30a-3050-7e30-9112-9e47539873ea']
+[36m[1mweave[0m: dropped call end ids: ['0197a30a-2453-79a3-bf56-e564ab643098', '0197a30a-3050-7e30-9112-9e47539873ea']
+[36m[1mweave[0m: status code: 403
+[36m[1mweave[0m: reason: Forbidden
+[36m[1mweave[0m: text: {"detail":"Project not found"}
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran model
+safe
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+unsafeunsafeunsafe safe safeunsafeunsafeunsafeunsafe
+[36m[1mweave[0m: Evaluated 21 of 108 examples
+[36m[1mweave[0m: Evaluated 22 of 108 examples
+ safe
+    safe
+[36m[1mweave[0m: Evaluated 23 of 108 examples
+safesafesafesafe
+[36m[1mweave[0m: Evaluated 24 of 108 examples
+[36m[1mweave[0m: Evaluated 25 of 108 examples
+[36m[1mweave[0m: Evaluated 26 of 108 examples
+[36m[1mweave[0m: Evaluated 27 of 108 examples
+[36m[1mweave[0m: Evaluated 28 of 108 examples
+[36m[1mweave[0m: Evaluated 29 of 108 examples
+[36m[1mweave[0m: Evaluated 30 of 108 examples
+[36m[1mweave[0m: Evaluated 31 of 108 examples
+[36m[1mweave[0m: Evaluated 32 of 108 examples
+
+
+
+
+Ran model
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safeRan model
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['safe']
+safeunsafeunsafeunsafeunsafeunsafeunsafeunsafe
+[36m[1mweave[0m: Evaluated 33 of 108 examples
+  unsafeunsafe unsafeunsafeunsafe    safesafe  safe   safesafesafesafe
+[36m[1mweave[0m: Evaluated 34 of 108 examples
+[36m[1mweave[0m: Evaluated 35 of 108 examples
+[36m[1mweave[0m: Evaluated 36 of 108 examples
+
+safe
+
+safeunsafeunsafe
+[36m[1mweave[0m: Evaluated 37 of 108 examples
+
+
+
+safe
+[36m[1mweave[0m: Evaluated 38 of 108 examples
+[36m[1mweave[0m: Evaluated 39 of 108 examples
+
+
+
+Ran model
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+Ran modelsafe
+
+Predicted ['safe']
+safe
+[36m[1mweave[0m: Evaluated 40 of 108 examples
+safeunsafeunsafeunsafesafe unsafe unsafe  safe unsafe  safesafe
+[36m[1mweave[0m: Evaluated 41 of 108 examples
+[36m[1mweave[0m: Evaluated 42 of 108 examples
+[36m[1mweave[0m: Evaluated 43 of 108 examples
+safe
+safesafe
+[36m[1mweave[0m: Evaluated 44 of 108 examples
+[36m[1mweave[0m: Evaluated 45 of 108 examples
+[36m[1mweave[0m: Evaluated 46 of 108 examples
+[36m[1mweave[0m: Evaluated 47 of 108 examples
+[36m[1mweave[0m: Evaluated 48 of 108 examples
+[36m[1mweave[0m: Evaluated 49 of 108 examples
+[36m[1mweave[0m: Evaluated 50 of 108 examples
+[36m[1mweave[0m: Evaluated 51 of 108 examples
+
+
+
+
+Ran model
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['unsafe', 'S11']
+Ran modelS11
+
+Predicted ['safe']
+safeRan model

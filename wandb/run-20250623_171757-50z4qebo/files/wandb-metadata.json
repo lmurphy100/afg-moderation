@@ -1,0 +1,43 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.0",
+  "startedAt":  "2025-06-23T21:17:59.051347Z",
+  "program":  "C:\\Users\\LiamMurphy(DMC)\\Documents\\Weave\\eval\\weave_koala\\koala_weave_generation.py",
+  "codePath":  "weave_koala\\koala_weave_generation.py",
+  "git":  {
+    "remote":  "https://github.com/lmurphy100/afg-moderation.git",
+    "commit":  "c523e7b8b78734a6c9c7a795f591013b0dc739f1"
+  },
+  "email":  "liammurphy@datamachines.com",
+  "root":  "C:\\Users\\LiamMurphy(DMC)\\Documents\\Weave\\eval",
+  "host":  "https://weave.assessmentforgood.cloud/",
+  "executable":  "C:\\Users\\LiamMurphy(DMC)\\Documents\\Weave\\venv\\Scripts\\python.exe",
+  "codePathLocal":  "weave_koala\\koala_weave_generation.py",
+  "cpu_count":  16,
+  "cpu_count_logical":  22,
+  "gpu":  "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "2018788765696",
+      "used":  "231990358016"
+    }
+  },
+  "memory":  {
+    "total":  "68137205760"
+  },
+  "cpu":  {
+    "count":  16,
+    "countLogical":  22
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal":  "8585740288",
+      "cudaCores":  3072,
+      "architecture":  "Ada",
+      "uuid":  "GPU-726df4f7-c774-5bd1-e346-352a33da5f49"
+    }
+  ],
+  "cudaVersion":  "12.5"
+}

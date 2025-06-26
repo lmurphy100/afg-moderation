@@ -1,57 +1,91 @@
 {
-"koala2cat" : {
-    "H":"hate speech",
-    "H2":"hate speech",
-    "HR":"report of abuse",
-    "OK":"safe",
-    "S":"sexual content",
-    "S3":"report of abuse",
-    "SH":"self harm",
-    "V":"violence",
-    "V2":"violence"
-},
-"koala2binary": {
-    "H":0,
-    "H2":0,
-    "HR":0,
-    "OK":1,
-    "S":0,
-    "S3":0,
-    "SH":0,
-    "V":0,
-    "V2":0
-},
-"cat2binary" : {
-    "hate speech": 0,
-    "report of abuse": 0,
-    "sexual content": 0,
-    "self harm": 0,
-    "violence": 0,
-    "safe": 1
-},
-
-"cat2llama": {
-    "safe": ["safe"],
-    "sexual content": ["S3", "S4", "S12"],
-    "violence": ["S1", "S2", "S5", "S9"],
-    "hate speech": ["S2", "S10"],
-    "report of abuse": ["S1", "S3", "S4"],
-    "self harm": ["S11"]
-},
-"llama2cat": {
-    "S1": ["violence","report of abuse"],
-    "S2": ["hate speech", "violence"],
-    "S3": ["report of abuse", "sexual content"],
-    "S4": ["report of abuse", "sexual content"],
-    "S5": ["violence"],
-    "S6": "N/A",
-    "S7": "N/A",
-    "S8": "N/A",
-    "S9": ["violence"],
-    "S10": ["hate speech"],
-    "S11": ["self harm"],
-    "S12": ["sexual content"],
-    "S13": "N/A",
-    "safe": ["safe"]
-}
+    "category_labels": [
+        "bullying",
+        "report of abuse",
+        "safe",
+        "self harm"
+    ],
+    "koala2cat": {
+        "H": "hate speech",
+        "H2": "hate speech",
+        "HR": "report of abuse",
+        "OK": "safe",
+        "S": "sexual content",
+        "S3": "report of abuse",
+        "SH": "self harm",
+        "V": "violence",
+        "V2": "violence"
+    },
+    "cat2llama": {
+        "safe": [
+            "safe"
+        ],
+        "sexual content": [
+            "S3",
+            "S4",
+            "S12"
+        ],
+        "violence": [
+            "S1",
+            "S2",
+            "S5",
+            "S9"
+        ],
+        "hate speech": [
+            "S2",
+            "S10"
+        ],
+        "report of abuse": [
+            "S1",
+            "S3",
+            "S4"
+        ],
+        "self harm": [
+            "S11"
+        ],
+        "bullying": [
+            "S2",
+            "S10"
+        ]
+    },
+    "llama2cat": {
+        "S1": [
+            "violence",
+            "report of abuse"
+        ],
+        "S2": [
+            "hate speech",
+            "violence"
+        ],
+        "S3": [
+            "report of abuse",
+            "sexual content"
+        ],
+        "S4": [
+            "report of abuse",
+            "sexual content"
+        ],
+        "S5": [
+            "violence"
+        ],
+        "S6": "N/A",
+        "S7": "N/A",
+        "S8": "N/A",
+        "S9": [
+            "violence"
+        ],
+        "S10": [
+            "hate speech"
+        ],
+        "S11": [
+            "self harm"
+        ],
+        "S12": [
+            "sexual content"
+        ],
+        "S13": "N/A",
+        "safe": [
+            "safe"
+        ]
+    }
 }

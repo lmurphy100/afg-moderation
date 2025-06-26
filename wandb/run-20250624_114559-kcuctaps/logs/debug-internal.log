@@ -1,0 +1,23 @@
+{"time":"2025-06-24T11:46:00.1681559-04:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\LiamMurphy(DMC)\\Documents\\Weave\\eval\\wandb\\run-20250624_114559-kcuctaps\\logs\\debug-core.log"}
+{"time":"2025-06-24T11:46:02.3494463-04:00","level":"INFO","msg":"stream: created new stream","id":"kcuctaps"}
+{"time":"2025-06-24T11:46:02.3501304-04:00","level":"INFO","msg":"stream: started","id":"kcuctaps"}
+{"time":"2025-06-24T11:46:02.3501304-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"kcuctaps"}
+{"time":"2025-06-24T11:46:02.3501304-04:00","level":"INFO","msg":"handler: started","stream_id":"kcuctaps"}
+{"time":"2025-06-24T11:46:02.3501304-04:00","level":"INFO","msg":"sender: started","stream_id":"kcuctaps"}
+{"time":"2025-06-24T11:46:02.6518077-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T11:46:52.4029799-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/kcuctaps/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T11:47:01.8249258-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T11:47:01.8254946-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/kcuctaps/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T11:47:04.218442-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T11:47:06.430675-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/kcuctaps/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T11:47:08.5801466-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T11:47:13.8848898-04:00","level":"INFO","msg":"stream: closing","id":"kcuctaps"}
+{"time":"2025-06-24T11:47:13.8848898-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-24T11:47:13.8853999-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-24T11:47:15.5781259-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/files/liammurphy7657/dataset-severitylevels-104/kcuctaps/file_stream","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T11:47:17.9001314-04:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://weave.assessmentforgood.cloud/graphql","body":"{\"error\":\"dial tcp 10.101.166.169:3306: connect: connection refused\"}"}
+{"time":"2025-06-24T11:47:35.7789522-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-24T11:47:35.8397991-04:00","level":"INFO","msg":"handler: closed","stream_id":"kcuctaps"}
+{"time":"2025-06-24T11:47:35.8397991-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kcuctaps"}
+{"time":"2025-06-24T11:47:35.8397991-04:00","level":"INFO","msg":"sender: closed","stream_id":"kcuctaps"}
+{"time":"2025-06-24T11:47:35.8413098-04:00","level":"INFO","msg":"stream: closed","id":"kcuctaps"}
