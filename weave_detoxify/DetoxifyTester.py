@@ -2,10 +2,7 @@ import matplotlib.pyplot as plt
 import torch
 import json
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from sklearn.cluster import KMeans
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.decomposition import PCA
-from sklearn.metrics import silhouette_score
 import pandas as pd
 import numpy as np
 import mplcursors
@@ -33,7 +30,7 @@ hf_model = AutoModelForSequenceClassification.from_pretrained(hf_model_name)
 filter_categories = "report of abuse"
 
 severity_labels = ["n/a", "informational", "questionable", "urgent"]
-severity_labels = severity_labels.sort()  # alphabetic
+label_to_index = {label: i for i, label in enumerate(severity_labels)}
 
 labels = [
     "toxicity",
@@ -43,70 +40,78 @@ labels = [
     "insult",
     "identity_attack",
 ]
-category = []
-y_pred = []  # Toxicity Scores on larger data
+
+categories = []
+pred_scores = []  # Toxicity Scores on test data
+pred_severity_labels = []  # Cluster labels
+true_severity_labels = []  # True cluster labels
 prompts = []
 
-category_test = []
-y_pred_test = []  # Toxicity Scores on test data
-y_pred_id_test = []  # Cluster ids
-y_pred_label_test = []  # Cluster labels
-y_true_label_test = []  # True cluster labels
-prompts_test = []
 
-
-class DetoxifyModel():
+class DetoxifyModel(Model):
+    @weave.op()
     def predict(self, response: str) -> dict:
         inputs = tokenizer(response, return_tensors="pt")  # 2 arguments
         output = hf_model(**inputs)
         softmax_prob = torch.softmax(output.logits, dim=1)
-        prob = softmax_prob.detach().numpy().flatten()
+        prob = softmax_prob.detach().numpy().flatten().tolist()
         return {'pred_score': prob}
 
-    def make_confusion_matrix():
+    def make_confusion_matrix(self):
         encoder = LabelEncoder().fit(severity_labels)
 
-        y_pred_encoded = encoder.transform(y_pred_label_test)
-        y_true_encoded = encoder.transform(y_true_label_test)
-
+        y_pred_encoded = encoder.transform(pred_severity_labels)
+        y_true_encoded = encoder.transform(true_severity_labels)
         report_dict = classification_report(
             y_pred=y_pred_encoded, y_true=y_true_encoded, target_names=severity_labels
         )
         print(report_dict)
+        cm = confusion_matrix(y_true_encoded, y_pred_encoded)
+        sns.heatmap(
+            cm,
+            annot=True,
+            fmt="d",
+            cmap="Blues",
+            cbar=False,
+            linewidths=0.5,
+            linecolor="lightgray",
+            xticklabels=severity_labels,
+            yticklabels=severity_labels,
+            annot_kws={"size": 12},
+        )
+        plt.xlabel("Predicted Severity")
+        plt.ylabel("Actual Severity")
+        plt.title(" VS ".join(filter_categories))
+        plt.show()
+    def get_results(self):
+        return pred_scores, pred_severity_labels, true_severity_labels, prompts, categories
 
-# class DetoxifyScorer():
-#     def score(self, category: str, output: dict) -> dict:
+class DetoxifyScorer(Scorer):
+    mapped_severity: dict
+    cluster_labels: list
+    cluster_points: list
+    @weave.op()
+    def score(self, severity_level: str, category: str, response: str, output: dict) -> dict:
+        prediction = output['pred_score']
+        pred_severity_lab = severity_labels[self.classify_severity(prediction)]
         
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-        # cm = confusion_matrix(y_true_encoded, y_pred_encoded)
-        # sns.heatmap(
-        #     cm,
-        #     annot=True,
-        #     fmt="d",
-        #     cmap="Blues",
-        #     cbar=False,
-        #     linewidths=0.5,
-        #     linecolor="lightgray",
-        #     xticklabels=severity_labels,
-        #     yticklabels=severity_labels,
-        #     annot_kws={"size": 12},
-        # )
-        # plt.xlabel("Predicted Severity")
-        # plt.ylabel("Actual Severity")
-        # plt.title(" VS ".join(filter_categories))
+        prompts.append(response)
+        categories.append(category)
+        pred_scores.append(prediction)
+        pred_severity_labels.append(pred_severity_lab)
+        true_severity_labels.append(severity_level)
+        
+        return {
+            'pred_severity':str(pred_severity_lab),
+            'true_severity':str(severity_level),
+            'match_severity':str(pred_severity_lab) == str(severity_level)
+        }
+    def classify_severity(self, point):
+        n = 3
+        knn = KNeighborsClassifier(n_neighbors=n)
+        mapped_cluster_labels = pd.Series(self.cluster_labels).map(self.mapped_severity)
+        mapped_cluster_ids = mapped_cluster_labels.map(label_to_index)
+        knn.fit(self.cluster_points, mapped_cluster_ids)
+        
+        return int(knn.predict([point]))
+    

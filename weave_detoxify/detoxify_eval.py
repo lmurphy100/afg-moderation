@@ -9,7 +9,9 @@ import mplcursors
 from mplcursors import cursor
 import os, sys
 from dotenv import load_dotenv
-from weave_detoxify.DetoxifyTester import DetoxifyModel
+from DetoxifyTester import DetoxifyModel, DetoxifyScorer
+import wandb, weave, asyncio
+from weave import Evaluation
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.abspath(os.path.join(script_dir, ".."))
@@ -21,10 +23,10 @@ print("Current dir ", os.getcwd())
 load_dotenv("./login.env")
 
 response_data = (
-    "C:/Users/LiamMurphy(DMC)/Documents/Weave/eval/datasets/responses-378.json"
+    "./datasets/responses-378.json"
 )
 test_data = (
-    "C:/Users/LiamMurphy(DMC)/Documents/Weave/eval/datasets/sensitive-ex-reports.json"
+    "./datasets/sensitive-ex-reports.json"
 )
 severity_labels = ['informational', 'n/a', 'questionable', 'urgent']
 categories = ['report of abuse']
@@ -51,7 +53,7 @@ categories = []
 
 for entry in data:
     prob = cluster_model.predict(entry["response"])
-    pred_scores.append(prob)
+    pred_scores.append(prob['pred_score'])
     prompts.append(entry["response"])
     categories.append(entry["category"])
 print(len(data))
@@ -68,96 +70,83 @@ max_scores = np.max(centroids, axis=1)
 severity_order = np.argsort(max_scores)
 print(severity_order)
 cluster_to_severity = {
-    severity_order[0]: severity_labels[0],
-    severity_order[1]: severity_labels[1],
-    severity_order[2]: severity_labels[2],
-    severity_order[3]: severity_labels[3],
+    int(severity_order[0]): severity_labels[0],
+    int(severity_order[1]): severity_labels[1],
+    int(severity_order[2]): severity_labels[2],
+    int(severity_order[3]): severity_labels[3],
 }
-label_to_index = {label: i for i, label in enumerate(severity_labels)}
-print(label_to_index)
 
 cluster_labels = kmeans.labels_
-# Check how many 'safe' categories are in each cluster.
-df_clusters = pd.DataFrame(
-    {"prompt": prompts, "category": categories, "cluster": cluster_labels}
-)
-df_clusters["cluster"] = df_clusters["cluster"].map(cluster_to_severity)
-count_per_cluster = (
-    df_clusters[df_clusters["category"] == "safe"].groupby("cluster").size()
-)
 
-counts = pd.crosstab(df_clusters["cluster"], df_clusters["category"])
-print(counts)
+PROJECT_NAME = "detoxify_eval"
+ENTITY = 'liammurphy'
+weave.init(PROJECT_NAME) 
 
+# Login to Weave AFG Cloud Instance
+wandb.login(host=os.getenv('WANDB_HOST'), key=os.getenv('WANDB_API_KEY'))  # Login to Weave
+wandb.init(project=PROJECT_NAME)
 
-# knn = KNeighborsClassifier(n_neighbors=n)
-# mapped_cluster_labels = pd.Series(cluster_labels).map(cluster_to_severity)
-# mapped_cluster_ids = mapped_cluster_labels.map(label_to_index)
-# knn.fit(y_pred, mapped_cluster_ids)
+test_model = DetoxifyModel() 
+severity_scorer = DetoxifyScorer(mapped_severity = cluster_to_severity, cluster_labels = cluster_labels, cluster_points = pred_scores)  
+evaluation = Evaluation(dataset=test_data, 
+                        scorers=[severity_scorer],
+) 
 
-# print(mapped_cluster_labels)
+results = asyncio.run(evaluation.evaluate(test_model))  # Forwards results to website/database
+test_model.make_confusion_matrix()
 
-# y_pred_id_test = knn.predict(y_pred_test)
-
-
-# y_pred_label_test = [severity_labels[id] for id in y_pred_id_test]
-# print("Predicted severity:", y_pred_label_test)
-# print("True severity:", y_true_label_test)
+pred_test_scores, pred_severity_levels, true_severity_levels, prompts, categories = test_model.get_results()
 
 
 
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(pred_scores)
 
+predX_pca = pca.transform(pred_test_scores)
 
+PC1 = X_pca[:, 0]
+PC2 = X_pca[:, 1]
+scalePCA = 1
 
+fig, ax1 = plt.subplots(figsize=(10, 8))
+# plot per cluster.
+indexes = []
+cluster_scatters = []
+for i in range(k):
+    idx = np.where(i == cluster_labels)[0]
+    scatter = ax1.scatter(PC1[idx], PC2[idx], marker=".", label=cluster_to_severity[i])
+    indexes.append(idx)
+    cluster_scatters.append(scatter)
 
-# pca = PCA(n_components=2)
-# X_pca = pca.fit_transform(y_pred)
-
-# predX_pca = pca.transform(y_pred_test)
-
-# PC1 = X_pca[:, 0]
-# PC2 = X_pca[:, 1]
-# scalePCA = 1
-
-# fig, ax1 = plt.subplots(figsize=(10, 8))
-# # plot per cluster.
-# indexes = []
-# cluster_scatters = []
-# for i in range(k):
-#     idx = np.where(i == cluster_labels)[0]
-#     scatter = ax1.scatter(PC1[idx], PC2[idx], marker=".", label=cluster_to_severity[i])
-#     indexes.append(idx)
-#     cluster_scatters.append(scatter)
-
-# pred_scatter = ax1.scatter(predX_pca[:, 0], predX_pca[:, 1], marker="X", c="black")
+pred_scatter = ax1.scatter(predX_pca[:, 0], predX_pca[:, 1], marker="X", c="black")
 
 # cursor = mplcursors.cursor(pred_scatter, hover=True)
 
 
-# @cursor.connect("add")
-# def on_hover(sel):
-#     # cluster_idx = cluster_scatters.index(sel.artist)
-#     # true_idx = indexes[cluster_idx][sel.index]
-#     index = sel.index
-#     x, y = sel.target
-#     report = (
-#         f"Coordinates: ({x:.2f}, {y:.2f}) - Index: {index}\n"
-#         f"Prompt: {prompts_test[index]}\n\n"
-#         f"Expected Category: {category_test[index]}\n"
-#         f"Predicted Severity Score: {y_pred_test[index]}\n\n"
-#         f"Expected Severity Label: {y_true_label_test[index]}\n"
-#         f"Predicted Severity Label: {severity_labels[y_pred_id_test[index]]}"
-#     )
-#     print(f"{report}")
-#     sel.annotation.set(
-#         text=report,
-#         bbox=dict(fc="white", alpha=0.8),
-#         wrap="true",
-#     )
+#  @cursor.connect("add")
+#  def on_hover(sel):
+#      # cluster_idx = cluster_scatters.index(sel.artist)
+#      # true_idx = indexes[cluster_idx][sel.index]
+#      index = sel.index
+#      x, y = sel.target
+#      report = (
+#          f"Coordinates: ({x:.2f}, {y:.2f}) - Index: {index}\n"
+#          f"Prompt: {prompts_test[index]}\n\n"
+#          f"Expected Category: {category_test[index]}\n"
+#          f"Predicted Severity Score: {y_pred_test[index]}\n\n"
+#          f"Expected Severity Label: {y_true_label_test[index]}\n"
+#          f"Predicted Severity Label: {severity_labels[y_pred_id_test[index]]}"
+#      )
+#      print(f"{report}")
+#      sel.annotation.set(
+#          text=report,
+#          bbox=dict(fc="white", alpha=0.8),
+#          wrap="true",
+#      )
 
 
-# ax1.set_title("Severity Levels: Report of Abuse VS Safe")
-# ax1.set_xlabel(f"PCA 1")
-# ax1.set_ylabel(f"PCA 2")
-# plt.legend()
-# plt.show()
+ax1.set_title("Severity Levels: Report of Abuse VS Safe")
+ax1.set_xlabel(f"PCA 1")
+ax1.set_ylabel(f"PCA 2")
+plt.legend()
+plt.show()
